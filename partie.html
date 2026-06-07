@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Partie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <div class="logo">LOGO</div>
+
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="historique.html">Historique</a>
+        </nav>
+    </header>
+
+    <!-- Interface du jeu -->
+    <main class="jeu">
+
+        <div class="infos">
+
+            <div>Niveau : 1</div>
+
+            <div>Score : 0</div>
+
+            <div id="timer">
+            </div>
+
+        </div>
+
+        <h2>Question 1 / 10</h2>
+
+        <div class="question-zone">
+
+            <div id="imageQuestion">
+            </div>
+
+            <p id="question">
+            </p>
+
+        </div>
+
+        <!-- Réponses générées par JavaScript -->
+        <div id="reponses">
+        </div>
+
+        <!-- Résultat -->
+        <section class="resultat">
+
+            <h2>Fin de la partie</h2>
+
+            <p id="scoreFinal">
+            </p>
+
+            <p id="message">
+            </p>
+
+            <button id="btnRejouer">
+                Rejouer
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
